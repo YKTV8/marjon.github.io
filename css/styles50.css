@@ -1,0 +1,86 @@
+body{
+    background-image: linear-gradient(to top, rgba(54, 93, 18, 0.8),rgba(0,0,0,0.65), rgba(54,93,18,1));
+    /* background-image: url(../images/613__milwaukee_bucks_by_coffepix_dd6kvbj-350t.jpg); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+}
+.navbar{
+    background-color: rgba(0,0,0,0.65);
+    padding: 20px;
+    height: 100vh;
+    color: aliceblue;
+}
+.nav{
+    display: flex; 
+}
+li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: aliceblue;
+    margin-left:5px;
+    font-size: 20px;
+}
+ul {
+    list-style: none;
+    padding-bottom: 550px;
+}
+a{
+display: flex;
+flex-direction: column;
+color: aqua;
+margin: 90px;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    width: 90vw;
+    transition: flex 5s ease-in;
+}
+.panel {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    flex:0.9;
+    margin: 10px;
+    position: relative;
+    transition: flex 0.8s ease-in;
+}
+.panel h3{
+    font-size: 24px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin:0;
+    opacity: 0;
+}
+.panel.active{
+    border-radius: 50px;
+    flex:5;
+}
+.panel.active h3{
+    opacity: 1;
+}
+
+@media(max-width: 1180px){
+    .container{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        overflow-x: hidden;
+    }
+    .panel:nth-of-type(4),.panel:nth-of-type(5){
+        display: none;
+    }
+}

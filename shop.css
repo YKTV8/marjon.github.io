@@ -1,0 +1,60 @@
+body{
+    background-image: linear-gradient(to top, rgba(54, 93, 18, 0.8),rgba(0,0,0,0.65), rgba(54,93,18,1));
+    /* background-image: url(../images/613__milwaukee_bucks_by_coffepix_dd6kvbj-350t.jpg); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    /* overflow: hidden; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+}
+.navbar{
+    background-color: rgba(0,0,0,0.65);
+    padding: 20px;
+    height: 100vh;
+    color: aliceblue;
+}
+.nav{
+    display: flex; 
+}
+li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: aliceblue;
+    margin-left:5px;
+    font-size: 20px;
+}
+a{
+    display: flex;
+    flex-direction: column;
+    color: aqua;
+    margin: 90px;
+    }
+ul {
+    list-style: none;
+    padding-bottom: 550px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+    width: 90vw;
+    transition: flex 5s ease-in;
+}
+.container2{
+    padding-right: 50px;
+}
+blockquote{
+    width: 400px;
+    height: 800px;
+}
+article{
+    padding: 150px;
+}
+h2{
+    font-size: 54px;
+}
+#cards{
+    padding-left: 50px;
+}

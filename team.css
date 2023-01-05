@@ -1,0 +1,81 @@
+body{
+    /* background-image: linear-gradient(to top, rgba(54, 93, 18, 0.8),rgba(0,0,0,0.65), rgba(54,93,18,1)); */
+    /* background-image: url(../images/613__milwaukee_bucks_by_coffepix_dd6kvbj-350t.jpg); */
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    overflow: hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+}
+.navbar{
+    background-color: rgba(54,93,18,0.65);
+    padding: 20px;
+    height: 100vh;
+    color: aliceblue;
+}
+.nav{
+    display: flex; 
+}
+li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: aliceblue;
+    margin-left:5px;
+    font-size: 20px;
+}
+a{
+    display: flex;
+    flex-direction: column;
+    color: aqua;
+    margin: 90px;
+    }
+ul {
+    list-style: none;
+    padding-bottom: 550px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+    padding-right: 80px;
+    text-align: justify;
+    width: 90vw;
+    height: 100vh;
+    transition: flex 5s ease-in;
+}
+.container2{
+    padding-right: 50px;
+}
+blockquote{
+    width: 400px;
+    height: 800px;
+}
+article{
+    padding: 150px;
+}
+h2{
+    font-size: 54px;
+}
+.wrapper {
+    height: 100%;
+    background-color: #000;
+    /* background: #000; */
+    /*This part is important for centering*/
+    display: grid;
+    place-items: center;
+  }
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    line-height: 18px;
+    background: url('./images/294788513_10160629099653463_2965258128122452744_n.jpg') fixed center no-repeat;
+    background-size: contain;
+  }
+  p {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255,255,255,.01);
+  }
