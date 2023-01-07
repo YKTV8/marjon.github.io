@@ -1,17 +1,51 @@
-body{
+*{
+    box-sizing: border-box;
+}
+/* body{
     background-image: linear-gradient(to top, rgba(54, 93, 18, 0.8),rgba(0,0,0,0.65), rgba(54,93,18,1));
-    /* background-image: url(../images/613__milwaukee_bucks_by_coffepix_dd6kvbj-350t.jpg); */
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100%;
-    /* overflow: hidden; */
+    width: 100vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+} */
+/* .navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0,0,0,0.65);
+    height: 40vh;
+    width: 100vw;
+    color: aliceblue;
+    top: 0;
+} */
+/* from hompage  */
+/* .navbar{
+    background-color: rgba(0,0,0,0.65);
+    padding: 20px;
+    height: 100vh;
+    color: aliceblue;
+} */
+
+body{
+    background-image: linear-gradient(to top, rgba(54, 93, 18, 0.8),rgba(0,0,0,0.65), rgba(54,93,18,1));
+    display: flex;
+    background-repeat:repeat-y;
+    height: 100vh;
+    overflow-y: scroll;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
 }
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 250px;
+}
 .navbar{
     background-color: rgba(0,0,0,0.65);
-    padding: 20px;
+    
     height: 100vh;
     color: aliceblue;
 }
@@ -25,36 +59,122 @@ li a{
     margin-left:5px;
     font-size: 20px;
 }
+ul {
+    list-style: none;
+    padding-bottom: 255px;
+}
 a{
     display: flex;
     flex-direction: column;
     color: aqua;
     margin: 90px;
-    }
-ul {
-    list-style: none;
-    padding-bottom: 550px;
+}
+*{
+    box-sizing: border-box;
 }
 .container{
     display: flex;
-    flex-direction: row;
-    padding-left: 50px;
     width: 90vw;
     transition: flex 5s ease-in;
+    width: 200px;
 }
 .container2{
-    padding-right: 50px;
+    display: flex;
+    width: 90vw;
+    transition: flex 5s ease-in;
+    width: 200px;
+    padding-right: 350px;
 }
-blockquote{
-    width: 400px;
-    height: 800px;
+.community{
+    max-height: fit-content;
+}
+iframe{
+    width: 200px;
+    height: 400px;
 }
 article{
-    padding: 150px;
+    padding-left: 320px;
+    padding-right: 120px;
 }
-h2{
-    font-size: 54px;
+h4{
+    padding-top: 0px;
 }
-#cards{
-    padding-left: 50px;
+
+@media screen and (min-width:320px) and (max-width:960px){
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(0,0,0,0.65);
+        height: 40vh;
+        width: 100vw;
+        color: aliceblue;
+        /* margin-left: 500px; */
+        top: 0;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        padding-bottom: 550px;
+    }
+    li a{
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        text-decoration: none;
+        color: aliceblue;
+        margin-left:5px;
+        font-size: 20px;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        overflow-x: hidden;
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 100vw;
+        margin-left: auto;
+        padding-bottom: 800px;
+
+        margin-top: 0;
+    }
+    ul{
+        align-items: left;
+        justify-content: left;
+    }
+    a{
+        margin: 5px;
+    }
+    h1{
+        padding-left: 50px;
+    }
+    h4{
+        padding-top: 1050px;
+        color: black;
+    
+    }
+    li{
+        padding: 8px;
+    }
+    p{  
+        margin: 0,15;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    div1 p{
+        color: aliceblue;
+        padding-right: 40px;
+        padding-bottom: 40px;
+    }
+    div2 p{
+        padding-right: 40px;
+        padding-bottom: 40px;
+    }
+    div3 p{
+        padding-right: 40px;
+    }
 }
