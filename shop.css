@@ -109,11 +109,11 @@ h4{
         width: 100vw;
         color: aliceblue;
         /* margin-left: 500px; */
-        top: 0;
     }
     main{
         display: flex;
         flex-direction: column;
+        padding-left: 20px;
     }
     ul {
         display: flex;
@@ -131,7 +131,7 @@ h4{
         font-size: 20px;
     }
     body{
-        display: flex;
+        display: grid;
         flex-direction: column;
         overflow-x: hidden;
         background-repeat: no-repeat;
