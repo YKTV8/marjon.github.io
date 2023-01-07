@@ -168,11 +168,11 @@ h4{
         padding-left: 25px;
         padding-right: 30px;
     }
-    .navbar{
+/*     .navbar{
         position: relative;
         height: 30vh;
         width: auto;
-    }
+    } */
     ul{
         align-items: left;
         justify-content: left;
