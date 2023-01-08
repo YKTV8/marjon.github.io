@@ -136,9 +136,9 @@ p{  padding-top: 15px;
         /* margin-left: 500px; */
         top: 0;
     }
-    /* .community{
-        padding-top: 100px;
-    } */
+    .community{
+        padding-top: 5px;
+    }
     ul {
         display: flex;
         flex-direction: column;
