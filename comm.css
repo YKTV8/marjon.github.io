@@ -80,7 +80,8 @@ li a{
 }
 ul {
     list-style: none;
-    padding-bottom: 255px;
+    padding-top: 300px;
+
 }
 a{
     display: flex;
@@ -116,7 +117,7 @@ article{
     padding-right: 120px;
 }
 h4{
-    padding-top: 0px;
+    padding-top: 600px;
     color: white;
 }
 p{  padding-top: 15px;
