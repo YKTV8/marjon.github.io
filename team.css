@@ -30,10 +30,10 @@ a{
     color: aqua;
     margin: 90px;
     }
-ul {
+/* ul {
     list-style: none;
     padding-bottom: 550px;
-}
+} */
 .container p{
     display: flex;
     flex-direction: row;
@@ -130,7 +130,7 @@ h6{
     color: white;
 }
 
-@media screen and (min-width:320px) and (max-width:960px){
+@media screen and (min-width:120px) and (max-width:960px){
     .navbar{
         display: flex;
         flex-direction: row;
@@ -146,6 +146,8 @@ h6{
         flex-direction: column;
         list-style: none;
         padding-bottom: 1050px;
+        align-items: left;
+        justify-content: left;
     }
     li a{
         display: flex;
@@ -178,10 +180,10 @@ h6{
         /* padding-top: 700px; */
         overflow-x: hidden;
     }
-    ul{
+    /* ul{
         align-items: left;
         justify-content: left;
-    }
+    } */
     a{
         margin: 5px;
     }

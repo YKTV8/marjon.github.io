@@ -1,6 +1,9 @@
 *{
     box-sizing: border-box;
 }
+button{
+    width: 60px;
+}
 /* body{
     background-image: linear-gradient(to top, rgba(54, 93, 18, 0.8),rgba(0,0,0,0.65), rgba(54,93,18,1));
     display: flex;
@@ -28,83 +31,277 @@
     height: 100vh;
     color: aliceblue;
 } */
+@media screen and (min-width: 961px) and (max-width:4800px){
 
-body{
-    background-image: linear-gradient(to top, rgba(54, 93, 18, 0.8),rgba(0,0,0,0.65), rgba(54,93,18,1));
-    display: flex;
-    background-repeat:repeat-y;
-    height: 100vh;
-    overflow-y: scroll;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 0;
-}
-main{
-    display: flex;
-    flex-direction: row;
-    margin-top: 250px;
-}
-.navbar{
-    background-color: rgba(0,0,0,0.65);
+    body{
+        background-image: linear-gradient(to top, rgba(54, 93, 18, 0.8),rgba(0,0,0,0.65), rgba(54,93,18,1));
+        display: flex;
+        /* background-repeat:repeat-y; */
+
+        height: 100vh;
+        overflow-y: scroll;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin: 0;
+    }
+    main{
+        display: flex;
+        flex-direction: row;
+        margin-top: 1.2em;
+    }
+    .navbar{
+        background-color: rgba(0,0,0,0.65);
+        padding: 20px;
+        height: 100vh;
+        color: aliceblue;
+    }
+    .nav{
+        display: flex; 
+    }
+    li a{
+        list-style-type: none;
+        text-decoration: none;
+        color: aliceblue;
+        margin-left:5px;
+        font-size: 20px;
+    }
+    ul {
+        list-style: none;
+        padding-bottom: 50px;
+        margin-left: 15px;
+    }
+    a{
+        display: flex;
+        flex-direction: column;
+        color: aqua;
+        margin: 90px;
+    }
+    *{
+        box-sizing: border-box;
+    }
+    .container{
+        display: flex;
+        width: 90vw;
+        transition: flex 5s ease-in;
+        width: 200px;
+    }
+    .container2{
+        display: flex;
+        width: 90vw;
+        transition: flex 5s ease-in;
+        width: 200px;
+        padding-right: 350px;
+    }
+    .community{
+        max-height: fit-content;
+    }
+    iframe{
+        width: 200px;
+        height: 400px;
+    }
+    article{
+        padding-left: 320px;
+        padding-right: 120px;
+    }
+    h4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img{
+        width: 100px;
+        height: 100px;
+    }
+    .product{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-right: 20px;
+        height: 200px;
+        width: 200px;
+        margin: 15px;
+        background-color: aliceblue;
+        -webkit-box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.87); 
+        box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.87);
+        background-image: url(./images/shoes1.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .product1{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-right: 20px;
+        height: 200px;
+        width: 200px;
+        margin: 15px;
+        background-color: aliceblue;
+        -webkit-box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.87); 
+        box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.87);
+        background-image: url(./images/shoes2.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .product2{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-right: 20px;
+        height: 200px;
+        width: 200px;
+        margin: 15px;
+        background-color: aliceblue;
+        -webkit-box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.87); 
+        box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.87);
+        background-image: url(./images/shoes3.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .product3{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-right: 20px;
+        height: 200px;
+        width: 200px;
+        margin: 15px;
+        background-color: aliceblue;
+        -webkit-box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.87); 
+        box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.87);
+        background-image: url(./images/shoes3.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .product4{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-right: 20px;
+        height: 200px;
+        width: 200px;
+        margin: 15px;
+        background-color: aliceblue;
+        -webkit-box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.87); 
+        box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.87);
+        background-image: url(./images/shoes2.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .product5{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-right: 20px;
+        height: 200px;
+        width: 200px;
+        margin: 15px;
+        background-color: aliceblue;
+        -webkit-box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.87); 
+        box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.87);
+        background-image: url(./images/shoes1.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .product6{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-right: 20px;
+        height: 200px;
+        width: 200px;
+        margin: 15px;
+        background-color: aliceblue;
+        -webkit-box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.87); 
+        box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.87);
+        background-image: url(./images/shoes1.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .product7{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-right: 20px;
+        height: 200px;
+        width: 200px;
+        margin: 15px;
+        background-color: aliceblue;
+        -webkit-box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.87); 
+        box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.87);
+        background-image: url(./images/shoes3.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .product8{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-right: 20px;
+        height: 200px;
+        width: 200px;
+        margin: 15px;
+        background-color: aliceblue;
+        -webkit-box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.87); 
+        box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.87);
+        background-image: url(./images/shoes2.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }.product9{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-right: 20px;
+        height: 200px;
+        width: 200px;
+        margin: 15px;
+        background-color: aliceblue;
+        -webkit-box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.87); 
+        box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.87);
+        background-image: url(./images/shoes1.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .merch{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    p{
+        background: #000000;
+        opacity: .7;
+        background: -moz-linear-gradient(left, #000000 0%, #000000 8%, #FFFFFF 100%);
+        background: -webkit-linear-gradient(left, #000000 0%, #000000 8%, #FFFFFF 100%);
+        background: linear-gradient(to right, #000000 0%, #000000 8%, #FFFFFF 100%);
+        color: white;
+        font-weight: 800;
+    }
     
-    height: 100vh;
-    color: aliceblue;
-}
-.nav{
-    display: flex; 
-}
-li a{
-    list-style-type: none;
-    text-decoration: none;
-    color: aliceblue;
-    margin-left:5px;
-    font-size: 20px;
-}
-ul {
-    list-style: none;
-    padding-bottom: 255px;
-}
-a{
-    display: flex;
-    flex-direction: column;
-    color: aqua;
-    margin: 90px;
-}
-*{
-    box-sizing: border-box;
-}
-.container{
-    display: flex;
-    width: 90vw;
-    transition: flex 5s ease-in;
-    width: 200px;
-}
-.container2{
-    display: flex;
-    width: 90vw;
-    transition: flex 5s ease-in;
-    width: 200px;
-    padding-right: 350px;
-}
-.community{
-    max-height: fit-content;
-}
-iframe{
-    width: 200px;
-    height: 400px;
-}
-article{
-    padding-left: 320px;
-    padding-right: 120px;
-}
-h4{
-    padding-top: 0px;
 }
 
-@media screen and (min-width:320px) and (max-width:960px){
+@media screen and (min-width:120px) and (max-width:960px){
+    body{
+        background-image: linear-gradient(to top, rgba(54, 93, 18, 0.8),rgba(0,0,0,0.65), rgba(54,93,18,1));
+        display: flex;
+        background-repeat:repeat-y;
+        /* height: 100vh; */
+        overflow-y: scroll;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin: 0;
+
+        /* display: grid; */
+        flex-direction: column;
+        overflow-x: hidden;
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 100vw;
+        margin-left: auto;
+        padding-bottom: 150px;
+        margin-top: 0;
+    }
     .navbar{
         display: flex;
         flex-direction: column;
         background-color: rgba(0,0,0,0.65);
+        padding: 20px;
         height: 40vh;
         width: 100vw;
         color: aliceblue;
@@ -120,6 +317,8 @@ h4{
         flex-direction: column;
         list-style: none;
         padding-bottom: 550px;
+        align-items: left;
+        justify-content: left;
     }
     li a{
         display: flex;
@@ -130,7 +329,7 @@ h4{
         margin-left:5px;
         font-size: 20px;
     }
-    body{
+    /* body{
         display: grid;
         flex-direction: column;
         overflow-x: hidden;
@@ -138,13 +337,172 @@ h4{
         height: 100%;
         width: 100vw;
         margin-left: auto;
-        padding-bottom: 800px;
-
+        padding-bottom: 150px;
         margin-top: 0;
+    } */
+    .product{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-right: 20px;
+        height: 200px;
+        width: 200px;
+        margin: 15px;
+        background-color: aliceblue;
+        -webkit-box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.87); 
+        box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.87);
+        background-image: url(./images/shoes3.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
     }
-    ul{
-        align-items: left;
-        justify-content: left;
+    .product1{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-right: 20px;
+        height: 200px;
+        width: 200px;
+        margin: 15px;
+        background-color: aliceblue;
+        -webkit-box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.87); 
+        box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.87);
+        background-image: url(./images/shoes3.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .product2{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-right: 20px;
+        height: 200px;
+        width: 200px;
+        margin: 15px;
+        background-color: aliceblue;
+        -webkit-box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.87); 
+        box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.87);
+        background-image: url(./images/shoes3.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .product3{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-right: 20px;
+        height: 200px;
+        width: 200px;
+        margin: 15px;
+        background-color: aliceblue;
+        -webkit-box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.87); 
+        box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.87);
+        background-image: url(./images/shoes3.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .product4{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-right: 20px;
+        height: 200px;
+        width: 200px;
+        margin: 15px;
+        background-color: aliceblue;
+        -webkit-box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.87); 
+        box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.87);
+        background-image: url(./images/shoes3.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .product5{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-right: 20px;
+        height: 200px;
+        width: 200px;
+        margin: 15px;
+        background-color: aliceblue;
+        -webkit-box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.87); 
+        box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.87);
+        background-image: url(./images/shoes3.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .product6{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-right: 20px;
+        height: 200px;
+        width: 200px;
+        margin: 15px;
+        background-color: aliceblue;
+        -webkit-box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.87); 
+        box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.87);
+        background-image: url(./images/shoes3.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .product7{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-right: 20px;
+        height: 200px;
+        width: 200px;
+        margin: 15px;
+        background-color: aliceblue;
+        -webkit-box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.87); 
+        box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.87);
+        background-image: url(./images/shoes3.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .product8{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-right: 20px;
+        height: 200px;
+        width: 200px;
+        margin: 15px;
+        background-color: aliceblue;
+        -webkit-box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.87); 
+        box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.87);
+        background-image: url(./images/shoes3.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }.product9{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-right: 20px;
+        height: 200px;
+        width: 200px;
+        margin: 15px;
+        background-color: aliceblue;
+        -webkit-box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.87); 
+        box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.87);
+        background-image: url(./images/shoes3.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .merch{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-left: 100px;
+    }
+    p{
+        background: #000000;
+        opacity: .7;
+        background: -moz-linear-gradient(left, #000000 0%, #000000 8%, #FFFFFF 100%);
+        background: -webkit-linear-gradient(left, #000000 0%, #000000 8%, #FFFFFF 100%);
+        background: linear-gradient(to right, #000000 0%, #000000 8%, #FFFFFF 100%);
+        color: white;
+        font-weight: 800;
     }
     a{
         margin: 5px;
@@ -153,7 +511,10 @@ h4{
         padding-left: 50px;
     }
     h4{
-        padding-top: 1050px;
+        display: flex;
+        padding-top: 1900px;
+        justify-content: center;
+        align-items: center;
         color: black;
     
     }

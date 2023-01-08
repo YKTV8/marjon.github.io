@@ -84,7 +84,7 @@ margin: 90px;
         display: none;
     }
 } */
-@media screen and (min-width:100px) and (max-width: 960px){
+@media screen and (min-width:120px) and (max-width: 960px){
     body{
         display:grid;
         overflow-y: scroll;
