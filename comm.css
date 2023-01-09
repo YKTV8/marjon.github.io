@@ -165,7 +165,7 @@ p{  padding-top: 15px;
         height: 100%;
         width:min-content;
         margin-left: auto;
-        /* margin-bottom: 250px; */
+        margin-bottom: 0px;
         margin-top: 0;
     }
 
@@ -207,7 +207,7 @@ p{  padding-top: 15px;
         padding-left: 50px;
     }
     h4{
-        padding-top: 1255px;
+        padding-top: 830px;
         color: black;
     
     }
