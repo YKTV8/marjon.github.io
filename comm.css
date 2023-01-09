@@ -106,7 +106,7 @@ a{
     padding-right: 350px;
 }
 .community{
-    max-height: fit-content;
+    height: 100vh;
 }
 iframe{
     width: 200px;
@@ -117,7 +117,7 @@ article{
     padding-right: 120px;
 }
 h4{
-    padding-top: 600px;
+    padding-top: 465px;
     color: white;
 }
 p{  padding-top: 15px;
@@ -138,7 +138,8 @@ p{  padding-top: 15px;
         top: 0;
     }
     .community{
-        padding-top: 5px;
+        /* padding-top: 5px; */
+        height: 100%;
     }
     ul {
         display: flex;
@@ -207,7 +208,8 @@ p{  padding-top: 15px;
         padding-left: 50px;
     }
     h4{
-        padding-top: 830px;
+        position: relative;
+        padding-top:110vh;
         color: black;
     
     }

@@ -275,8 +275,7 @@ button{
         font-weight: 800;
     }
     
-}
-
+/* }mobile viewport below */
 @media screen and (min-width:120px) and (max-width:960px){
     body{
         background-image: linear-gradient(to top, rgba(54, 93, 18, 0.8),rgba(0,0,0,0.65), rgba(54,93,18,1));
@@ -538,4 +537,5 @@ button{
     div3 p{
         padding-right: 40px;
     }
+}
 }
