@@ -493,7 +493,7 @@ button{
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        margin-left: 100px;
+        margin-left: 50px;
     }
     p{
         background: #000000;
@@ -538,5 +538,4 @@ button{
     div3 p{
         padding-right: 40px;
     }
-}
 }
